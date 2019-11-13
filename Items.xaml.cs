@@ -24,7 +24,7 @@ namespace antroji_praktika
         {
             InitializeComponent();
         }
-        private string Title;
+        public string Title;
         
         public void setTitle(string TITLE)
         {
@@ -33,7 +33,13 @@ namespace antroji_praktika
         }
         public string GetTitle()
         {
+            
             return Title;
+        }
+        private void BtnKategorijosPasirinkimas_Click(object sender, RoutedEventArgs e)
+        {
+            VisosPrekes prekiusarasas = new VisosPrekes();
+            prekiusarasas.Show();
         }
     }
 }

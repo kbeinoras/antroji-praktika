@@ -80,6 +80,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="backend\GetAllItemsData.cs" />
+    <Compile Include="backend\GetCategoryData.cs" />
     <Compile Include="Preke.xaml.cs">
       <DependentUpon>Preke.xaml</DependentUpon>
     </Compile>

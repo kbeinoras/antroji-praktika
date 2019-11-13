@@ -27,20 +27,21 @@ namespace antroji_praktika
         private string Title;
         private string Aprasymas;
         private string Kaina;
+        private string euras = "  Eur.";
         public void setTitle(string TITLE)
         {
             Title = TITLE;
-            TxtPavadinimas.Text = Title;
+            LblPavadinimas.Content = Title;
         }
         public void setAprasymas(string APRASYMAS)
         {
             Aprasymas = APRASYMAS;
-            TxtAprasymas.Text = Aprasymas;
+            LblAprasymas.Content = Aprasymas;
         }
         public void setKaina(string KAINA)
         {
             Kaina = KAINA;
-            TxtAprasymas.Text = Kaina;
+            LblKaina.Content = Kaina+euras;
         }
         public string GetTitle()
         {
