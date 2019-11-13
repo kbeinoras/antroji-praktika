@@ -25,16 +25,25 @@ namespace antroji_praktika
             InitializeComponent();
         }
         public string Title;
-        
         public void setTitle(string TITLE)
         {
             Title = TITLE;
             LblText.Content = Title;
+
         }
         public string GetTitle()
         {
-            
+
             return Title;
+        }
+        public void SetkategorijaString()
+        {
+            string kategorijaString = LblText.Content.ToString();
+        }
+
+        public string GetkategorijaString()
+        {
+            return LblText.Content.ToString();
         }
         private void BtnKategorijosPasirinkimas_Click(object sender, RoutedEventArgs e)
         {

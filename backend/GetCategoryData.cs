@@ -9,6 +9,7 @@ namespace antroji_praktika.backend
 {
     public class GetCategoryData
     {
+        
         SQLiteConnection m_dbConnection = new SQLiteConnection(@"Data Source=DbAntras.db;");
         public List<Preke> GetPavadinimas()
         {
