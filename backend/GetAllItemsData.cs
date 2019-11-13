@@ -5,17 +5,15 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SQLite;
 
-
-namespace antroji_praktika
+namespace antroji_praktika.backend
 {
-    public class kategorijos
+    public class GetAllItemsData
     {
-        public void ShowData()
+        SQLiteConnection m_dbConnection = new SQLiteConnection(@"Data Source=DbAntras.db;");
+        public List<Items> GetPavadinimas()
         {
-            SQLiteConnection m_dbConnection = new SQLiteConnection(@"Data Source=DbAntras.db;");
-
             m_dbConnection.Open();
-            string sql1 = $"SELECT Kategorija FROM Prekes";
+            string sql1 = $"SELECT Pavadinimas FROM Prekes";
             SQLiteCommand command1 = new SQLiteCommand(sql1, m_dbConnection);
             SQLiteDataReader reader1 = command1.ExecuteReader();
             string name = "";
@@ -26,11 +24,11 @@ namespace antroji_praktika
                 name = reader1.GetString(0);
                 Sarasas.Add(new Items());
                 Sarasas[k].setTitle(name);
-                StackPanel1.Children.Add(Sarasas[k]);
                 k++;
 
             }
             m_dbConnection.Close();
+            return Sarasas;
         }
     }
 }

@@ -10,38 +10,34 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
-using System.Data.SQLite;
 
 namespace antroji_praktika
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for VisosPrekes.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class VisosPrekes : Window
     {
-        public MainWindow()
+        public VisosPrekes()
         {
             InitializeComponent();
             ShowData();
         }
-     
+        
+
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+        }
         public void ShowData()
         {
-            backend.GetData duombaze = new backend.GetData();
+            backend.GetAllItemsData duombaze = new backend.GetAllItemsData();
             List<Items> Daiktai = new List<Items>();
-            Daiktai = duombaze.GetKategorijos();
-            for(int i=0; i<Daiktai.Count; i++)
+            Daiktai = duombaze.GetPavadinimas();
+            for (int i = 0; i < Daiktai.Count; i++)
             {
-                StackPanel1.Children.Add(Daiktai[i]);
+                StackPanelVisosPrekes.Children.Add(Daiktai[i]);
             }
-        }
-
-        private void BtnVisosPrekes_Click(object sender, RoutedEventArgs e)
-        {
-            VisosPrekes prekiusarasas = new VisosPrekes();
-            prekiusarasas.Show();
         }
     }
 }
