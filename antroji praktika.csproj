@@ -80,6 +80,9 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="backend\GetAllItemsData.cs" />
+    <Compile Include="Preke.xaml.cs">
+      <DependentUpon>Preke.xaml</DependentUpon>
+    </Compile>
     <Compile Include="VisosPrekes.xaml.cs">
       <DependentUpon>VisosPrekes.xaml</DependentUpon>
     </Compile>
@@ -103,6 +106,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Preke.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="VisosPrekes.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

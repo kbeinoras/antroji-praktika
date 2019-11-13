@@ -32,12 +32,17 @@ namespace antroji_praktika
         public void ShowData()
         {
             backend.GetAllItemsData duombaze = new backend.GetAllItemsData();
-            List<Items> Daiktai = new List<Items>();
+            List<Preke> Daiktai = new List<Preke>();
             Daiktai = duombaze.GetPavadinimas();
             for (int i = 0; i < Daiktai.Count; i++)
             {
                 StackPanelVisosPrekes.Children.Add(Daiktai[i]);
             }
+        }
+
+        private void BtnAtgal_Click(object sender, RoutedEventArgs e)
+        {
+            this.Hide();
         }
     }
 }

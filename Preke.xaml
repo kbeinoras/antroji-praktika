@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="antroji_praktika.Preke"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:antroji_praktika"
+             mc:Ignorable="d" d:DesignWidth="800" Height="190
+             ">
+    <Grid Background="White" Height="235" VerticalAlignment="Top" Margin="0,0,-78,-45" HorizontalAlignment="Left" Width="878">
+        <Label x:Name="LblPavadinimas" Content="Label" HorizontalAlignment="Left" Margin="284,175,0,0" VerticalAlignment="Top" Height="60" Width="405" FontSize="24"/>
+        <Image HorizontalAlignment="Left" Height="158" Margin="10,10,0,0" VerticalAlignment="Top" Width="158"/>
+        <Label x:Name="LblAprasymas" Content="Label" HorizontalAlignment="Left" Margin="185,348,0,-206" VerticalAlignment="Top" Height="93" Width="488"/>
+        <Label x:Name="LblKaina" Content="Label" HorizontalAlignment="Left" Margin="680,108,0,0" VerticalAlignment="Top" Height="60" Width="78"/>
+        <Button x:Name="BtnKrepselis" Content="Į Krepšelį" HorizontalAlignment="Left" Margin="695,32,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="TxtKaina" HorizontalAlignment="Left" Height="60" Margin="583,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="78"/>
+        <TextBox x:Name="TxtPavadinimas" HorizontalAlignment="Left" Height="60" Margin="173,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="405"/>
+        <TextBox x:Name="TxtAprasymas" HorizontalAlignment="Left" Height="93" Margin="173,75,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="488"/>
+    </Grid>
+
+</UserControl>
