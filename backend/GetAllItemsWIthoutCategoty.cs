@@ -7,15 +7,15 @@ using System.Data.SQLite;
 
 namespace antroji_praktika.backend
 {
-    public class GetAllItemsData
+    public class GetAllItemsWithoutCategory
     {
         SQLiteConnection m_dbConnection = new SQLiteConnection(@"Data Source=DbAntras.db;");
-        public List<Preke> GetPavadinimas(string kategorija)
+        public List<Preke> GetPavadinimasBeKategorijos()
         {
             m_dbConnection.Open();
-            string sql1 = $"SELECT Pavadinimas FROM Prekes WHERE Kategorija='{kategorija}'";
-            string sql2 = $"SELECT Aprasymas FROM Prekes WHERE Kategorija='{kategorija}'";
-            string sql3 = $"SELECT Kaina FROM Prekes WHERE Kategorija='{kategorija}'";
+            string sql1 = $"SELECT Pavadinimas FROM Prekes";
+            string sql2 = $"SELECT Aprasymas FROM Prekes";
+            string sql3 = $"SELECT Kaina FROM Prekes";
             SQLiteCommand command1 = new SQLiteCommand(sql1, m_dbConnection);
             SQLiteCommand command2 = new SQLiteCommand(sql2, m_dbConnection);
             SQLiteCommand command3 = new SQLiteCommand(sql3, m_dbConnection);

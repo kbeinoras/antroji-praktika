@@ -38,10 +38,20 @@ namespace antroji_praktika
             }
         }
 
-        private void BtnVisosPrekes_Click(object sender, RoutedEventArgs e)
+       private void BtnVisosPrekes_Click(object sender, RoutedEventArgs e)
         {
-            VisosPrekes prekiusarasas = new VisosPrekes();
+            VisosPrekes prekiusarasas = new VisosPrekes(Title);
             prekiusarasas.Show();
+        }
+        public void GetCategoryName(string name)
+        {
+            MessageBox.Show(name);
+        }
+
+        private void BtnVisosPrekes_Click_1(object sender, RoutedEventArgs e)
+        {
+            VisosNekaterizuotosPrekes prekes = new VisosNekaterizuotosPrekes();
+            prekes.Show();
         }
     }
 }

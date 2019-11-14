@@ -15,24 +15,20 @@ using System.Windows.Shapes;
 namespace antroji_praktika
 {
     /// <summary>
-    /// Interaction logic for VisosPrekes.xaml
+    /// Interaction logic for VisosNekaterizuotosPrekes.xaml
     /// </summary>
-    public partial class VisosPrekes : Window
+    public partial class VisosNekaterizuotosPrekes : Window
     {
-       
-        public VisosPrekes(string kategorija)
+        public VisosNekaterizuotosPrekes()
         {
             InitializeComponent();
-
-            ShowData(kategorija);
-
+            ShowData();
         }
-        
-        public void ShowData(string Category)
+        public void ShowData()
         {
-            backend.GetAllItemsData duombaze = new backend.GetAllItemsData();
+            backend.GetAllItemsWithoutCategory duombaze = new backend.GetAllItemsWithoutCategory();
             List<Preke> Daiktai = new List<Preke>();
-            Daiktai = duombaze.GetPavadinimas(Category);
+            Daiktai = duombaze.GetPavadinimasBeKategorijos();
             for (int i = 0; i < Daiktai.Count; i++)
             {
                 StackPanelVisosPrekes.Children.Add(Daiktai[i]);

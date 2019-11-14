@@ -1,0 +1,15 @@
+﻿<Window x:Class="antroji_praktika.VisosNekaterizuotosPrekes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:antroji_praktika"
+        mc:Ignorable="d"
+        Title="VisosNekaterizuotosPrekes" Height="739.42" Width="1541.297">
+    <Grid Margin="0,0,-8,-21" HorizontalAlignment="Left" Width="1541" RenderTransformOrigin="0.414,0.289" Height="729" VerticalAlignment="Top">
+        <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Visible" Margin="0,0,386,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="1145" Height="708">
+            <StackPanel x:Name="StackPanelVisosPrekes" HorizontalAlignment="Left" Width="1246" Margin="0,0,0,0" Height="698" RenderTransformOrigin="0.174,0.299"/>
+        </ScrollViewer>
+        <Button x:Name="BtnAtgal" Content="Atgal" HorizontalAlignment="Left" Margin="1325,189,0,0" VerticalAlignment="Top" Width="116" Height="47" Click="BtnAtgal_Click"/>
+    </Grid>
+</Window>

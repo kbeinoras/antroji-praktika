@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient.Memcached;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -36,18 +37,10 @@ namespace antroji_praktika
 
             return Title;
         }
-        public void SetkategorijaString()
-        {
-            string kategorijaString = LblText.Content.ToString();
-        }
-
-        public string GetkategorijaString()
-        {
-            return LblText.Content.ToString();
-        }
         private void BtnKategorijosPasirinkimas_Click(object sender, RoutedEventArgs e)
         {
-            VisosPrekes prekiusarasas = new VisosPrekes();
+            string kategorija = Title; 
+            VisosPrekes prekiusarasas = new VisosPrekes(Title);
             prekiusarasas.Show();
         }
     }

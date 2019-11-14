@@ -10,7 +10,7 @@
         <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Visible" Margin="0,0,413,0" RenderTransformOrigin="0.55,0.485" HorizontalAlignment="Left">
             <StackPanel x:Name="StackPanel1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="419" Height="419"/>
         </ScrollViewer>
-        <Button x:Name="BtnVisosPrekes" Content="Visos prekės" HorizontalAlignment="Left" Margin="560,63,0,0" VerticalAlignment="Top" Width="147" Height="58" Click="BtnVisosPrekes_Click"/>
+        <Button x:Name="BtnVisosPrekes" Content="Visos prekės" HorizontalAlignment="Left" Margin="560,63,0,0" VerticalAlignment="Top" Width="147" Height="58" Click="BtnVisosPrekes_Click_1"/>
 
     </Grid>
 </Window>
