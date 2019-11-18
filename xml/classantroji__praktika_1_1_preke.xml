@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classantroji__praktika_1_1_preke" kind="class" language="C++" prot="public">
+    <compoundname>antroji_praktika::Preke</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">UserControl</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantroji__praktika_1_1_preke_1a0a76635717401478f49ac0c481b952de" prot="private" static="no" mutable="no">
+        <type>private string</type>
+        <definition>private string antroji_praktika::Preke::Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preke.xaml.cs" line="27" column="24" bodyfile="Preke.xaml.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantroji__praktika_1_1_preke_1a060045daffaef3060eef6e15e82ee28f" prot="private" static="no" mutable="no">
+        <type>private string</type>
+        <definition>private string antroji_praktika::Preke::Aprasymas</definition>
+        <argsstring></argsstring>
+        <name>Aprasymas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preke.xaml.cs" line="28" column="24" bodyfile="Preke.xaml.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantroji__praktika_1_1_preke_1ae80bddb59a498d4f59737ff5012b6477" prot="private" static="no" mutable="no">
+        <type>private string</type>
+        <definition>private string antroji_praktika::Preke::Kaina</definition>
+        <argsstring></argsstring>
+        <name>Kaina</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preke.xaml.cs" line="29" column="24" bodyfile="Preke.xaml.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantroji__praktika_1_1_preke_1ae6b07b5544dc5673baa6ae6e30a5664c" prot="private" static="no" mutable="no">
+        <type>private string</type>
+        <definition>private string antroji_praktika::Preke::euras</definition>
+        <argsstring></argsstring>
+        <name>euras</name>
+        <initializer>= &quot;  Eur.&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preke.xaml.cs" line="30" column="24" bodyfile="Preke.xaml.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classantroji__praktika_1_1_preke_1a62bc02a20869c5380d2250ab42580c4b" prot="private" static="no" mutable="no">
+        <type>private string</type>
+        <definition>private string antroji_praktika::Preke::NuotraukosDir</definition>
+        <argsstring></argsstring>
+        <name>NuotraukosDir</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preke.xaml.cs" line="31" column="24" bodyfile="Preke.xaml.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classantroji__praktika_1_1_preke_1a090aa69f1ccbc29fc1418beabb1c0090" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>public</type>
+        <definition>public antroji_praktika::Preke::Preke</definition>
+        <argsstring>()</argsstring>
+        <name>Preke</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preke.xaml.cs" line="23" column="16" bodyfile="Preke.xaml.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classantroji__praktika_1_1_preke_1a63e2547eec8b9b4db11f42dd46429de7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>public void</type>
+        <definition>public void antroji_praktika::Preke::setTitle</definition>
+        <argsstring>(string TITLE)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>string</type>
+          <declname>TITLE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preke.xaml.cs" line="32" column="21" bodyfile="Preke.xaml.cs" bodystart="32" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classantroji__praktika_1_1_preke_1a42e80033cc69d1d8eb313b55b722e94c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>public void</type>
+        <definition>public void antroji_praktika::Preke::setAprasymas</definition>
+        <argsstring>(string APRASYMAS)</argsstring>
+        <name>setAprasymas</name>
+        <param>
+          <type>string</type>
+          <declname>APRASYMAS</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preke.xaml.cs" line="37" column="21" bodyfile="Preke.xaml.cs" bodystart="37" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classantroji__praktika_1_1_preke_1aebeea5e6caa2b2c927a9c2d619525ae7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>public void</type>
+        <definition>public void antroji_praktika::Preke::setKaina</definition>
+        <argsstring>(string KAINA)</argsstring>
+        <name>setKaina</name>
+        <param>
+          <type>string</type>
+          <declname>KAINA</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preke.xaml.cs" line="42" column="21" bodyfile="Preke.xaml.cs" bodystart="42" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classantroji__praktika_1_1_preke_1acabfbde6caa39324ebc1ac7838c84ca0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>public void</type>
+        <definition>public void antroji_praktika::Preke::SetNuotraukosDirekcija</definition>
+        <argsstring>(string PHOTOPATH)</argsstring>
+        <name>SetNuotraukosDirekcija</name>
+        <param>
+          <type>string</type>
+          <declname>PHOTOPATH</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preke.xaml.cs" line="47" column="21" bodyfile="Preke.xaml.cs" bodystart="47" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classantroji__praktika_1_1_preke_1af5de9d3ac2f7ba2d38ea6b11b94a4364" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>public string</type>
+        <definition>public string antroji_praktika::Preke::GetNuotraukosDirekcija</definition>
+        <argsstring>()</argsstring>
+        <name>GetNuotraukosDirekcija</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preke.xaml.cs" line="56" column="23" bodyfile="Preke.xaml.cs" bodystart="56" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="function" id="classantroji__praktika_1_1_preke_1ad6924179c4f8c0f826e914d07625d110" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>public string</type>
+        <definition>public string antroji_praktika::Preke::GetTitle</definition>
+        <argsstring>()</argsstring>
+        <name>GetTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preke.xaml.cs" line="60" column="23" bodyfile="Preke.xaml.cs" bodystart="60" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classantroji__praktika_1_1_preke_1a20053479e68f4cb94398a8b51f8e3f16" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>public string</type>
+        <definition>public string antroji_praktika::Preke::getAprasymas</definition>
+        <argsstring>()</argsstring>
+        <name>getAprasymas</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preke.xaml.cs" line="64" column="23" bodyfile="Preke.xaml.cs" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="classantroji__praktika_1_1_preke_1a8d88156180ae7279a4d83848198297cc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>public string</type>
+        <definition>public string antroji_praktika::Preke::getKaina</definition>
+        <argsstring>()</argsstring>
+        <name>getKaina</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Preke.xaml.cs" line="68" column="23" bodyfile="Preke.xaml.cs" bodystart="68" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for Preke.xaml </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>antroji_praktika::Preke</label>
+        <link refid="classantroji__praktika_1_1_preke"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>antroji_praktika::Preke</label>
+        <link refid="classantroji__praktika_1_1_preke"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="Preke.xaml.cs" line="22" column="1" bodyfile="Preke.xaml.cs" bodystart="21" bodyend="72"/>
+    <listofallmembers>
+      <member refid="classantroji__praktika_1_1_preke_1a060045daffaef3060eef6e15e82ee28f" prot="private" virt="non-virtual"><scope>antroji_praktika::Preke</scope><name>Aprasymas</name></member>
+      <member refid="classantroji__praktika_1_1_preke_1ae6b07b5544dc5673baa6ae6e30a5664c" prot="private" virt="non-virtual"><scope>antroji_praktika::Preke</scope><name>euras</name></member>
+      <member refid="classantroji__praktika_1_1_preke_1a20053479e68f4cb94398a8b51f8e3f16" prot="private" virt="non-virtual"><scope>antroji_praktika::Preke</scope><name>getAprasymas</name></member>
+      <member refid="classantroji__praktika_1_1_preke_1a8d88156180ae7279a4d83848198297cc" prot="private" virt="non-virtual"><scope>antroji_praktika::Preke</scope><name>getKaina</name></member>
+      <member refid="classantroji__praktika_1_1_preke_1af5de9d3ac2f7ba2d38ea6b11b94a4364" prot="private" virt="non-virtual"><scope>antroji_praktika::Preke</scope><name>GetNuotraukosDirekcija</name></member>
+      <member refid="classantroji__praktika_1_1_preke_1ad6924179c4f8c0f826e914d07625d110" prot="private" virt="non-virtual"><scope>antroji_praktika::Preke</scope><name>GetTitle</name></member>
+      <member refid="classantroji__praktika_1_1_preke_1ae80bddb59a498d4f59737ff5012b6477" prot="private" virt="non-virtual"><scope>antroji_praktika::Preke</scope><name>Kaina</name></member>
+      <member refid="classantroji__praktika_1_1_preke_1a62bc02a20869c5380d2250ab42580c4b" prot="private" virt="non-virtual"><scope>antroji_praktika::Preke</scope><name>NuotraukosDir</name></member>
+      <member refid="classantroji__praktika_1_1_preke_1a090aa69f1ccbc29fc1418beabb1c0090" prot="private" virt="non-virtual"><scope>antroji_praktika::Preke</scope><name>Preke</name></member>
+      <member refid="classantroji__praktika_1_1_preke_1a42e80033cc69d1d8eb313b55b722e94c" prot="private" virt="non-virtual"><scope>antroji_praktika::Preke</scope><name>setAprasymas</name></member>
+      <member refid="classantroji__praktika_1_1_preke_1aebeea5e6caa2b2c927a9c2d619525ae7" prot="private" virt="non-virtual"><scope>antroji_praktika::Preke</scope><name>setKaina</name></member>
+      <member refid="classantroji__praktika_1_1_preke_1acabfbde6caa39324ebc1ac7838c84ca0" prot="private" virt="non-virtual"><scope>antroji_praktika::Preke</scope><name>SetNuotraukosDirekcija</name></member>
+      <member refid="classantroji__praktika_1_1_preke_1a63e2547eec8b9b4db11f42dd46429de7" prot="private" virt="non-virtual"><scope>antroji_praktika::Preke</scope><name>setTitle</name></member>
+      <member refid="classantroji__praktika_1_1_preke_1a0a76635717401478f49ac0c481b952de" prot="private" virt="non-virtual"><scope>antroji_praktika::Preke</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

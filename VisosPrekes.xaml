@@ -8,7 +8,7 @@
         Title="VisosPrekes" Height="739.42" Width="1541.297">
     <Grid Margin="0,0,-8,-21" HorizontalAlignment="Left" Width="1541" RenderTransformOrigin="0.414,0.289" Height="729" VerticalAlignment="Top">
         <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Visible" Margin="0,0,386,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="1145" Height="708">
-            <StackPanel x:Name="StackPanelVisosPrekes" HorizontalAlignment="Left" Width="1246" Margin="0,0,0,0" Height="698" RenderTransformOrigin="0.174,0.299"/>
+            <StackPanel x:Name="StackPanelVisosPrekes" HorizontalAlignment="Left" Width="1145" Margin="0,0,0,0" RenderTransformOrigin="0.174,0.299"/>
         </ScrollViewer>
         <Button x:Name="BtnAtgal" Content="Atgal" HorizontalAlignment="Left" Margin="1325,189,0,0" VerticalAlignment="Top" Width="116" Height="47" Click="BtnAtgal_Click"/>
     </Grid>

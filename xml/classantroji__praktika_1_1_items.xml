@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classantroji__praktika_1_1_items" kind="class" language="C++" prot="public">
+    <compoundname>antroji_praktika::Items</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">UserControl</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classantroji__praktika_1_1_items_1a6539e2156fac7239528e95428afb9b99" prot="private" static="no" mutable="no">
+        <type>public string</type>
+        <definition>public string antroji_praktika::Items::Title</definition>
+        <argsstring></argsstring>
+        <name>Title</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items.xaml.cs" line="28" column="23" bodyfile="Items.xaml.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classantroji__praktika_1_1_items_1a6eefcef84895093a5ec2a0643946b111" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>public</type>
+        <definition>public antroji_praktika::Items::Items</definition>
+        <argsstring>()</argsstring>
+        <name>Items</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items.xaml.cs" line="24" column="16" bodyfile="Items.xaml.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="classantroji__praktika_1_1_items_1a3df9e9ffbfda90a7429e2dda088b373b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>public void</type>
+        <definition>public void antroji_praktika::Items::setTitle</definition>
+        <argsstring>(string TITLE)</argsstring>
+        <name>setTitle</name>
+        <param>
+          <type>string</type>
+          <declname>TITLE</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items.xaml.cs" line="29" column="21" bodyfile="Items.xaml.cs" bodystart="29" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="classantroji__praktika_1_1_items_1aa9f29eb8d673981c375e286c047aab67" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>public string</type>
+        <definition>public string antroji_praktika::Items::GetTitle</definition>
+        <argsstring>()</argsstring>
+        <name>GetTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items.xaml.cs" line="35" column="23" bodyfile="Items.xaml.cs" bodystart="35" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classantroji__praktika_1_1_items_1a96cf7f668c9693fcccf0706abe60ec9a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>private void</type>
+        <definition>private void antroji_praktika::Items::BtnKategorijosPasirinkimas_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>BtnKategorijosPasirinkimas_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Items.xaml.cs" line="40" column="22" bodyfile="Items.xaml.cs" bodystart="40" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for Items.xaml </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>antroji_praktika::Items</label>
+        <link refid="classantroji__praktika_1_1_items"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>antroji_praktika::Items</label>
+        <link refid="classantroji__praktika_1_1_items"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="Items.xaml.cs" line="23" column="1" bodyfile="Items.xaml.cs" bodystart="22" bodyend="46"/>
+    <listofallmembers>
+      <member refid="classantroji__praktika_1_1_items_1a96cf7f668c9693fcccf0706abe60ec9a" prot="private" virt="non-virtual"><scope>antroji_praktika::Items</scope><name>BtnKategorijosPasirinkimas_Click</name></member>
+      <member refid="classantroji__praktika_1_1_items_1aa9f29eb8d673981c375e286c047aab67" prot="private" virt="non-virtual"><scope>antroji_praktika::Items</scope><name>GetTitle</name></member>
+      <member refid="classantroji__praktika_1_1_items_1a6eefcef84895093a5ec2a0643946b111" prot="private" virt="non-virtual"><scope>antroji_praktika::Items</scope><name>Items</name></member>
+      <member refid="classantroji__praktika_1_1_items_1a3df9e9ffbfda90a7429e2dda088b373b" prot="private" virt="non-virtual"><scope>antroji_praktika::Items</scope><name>setTitle</name></member>
+      <member refid="classantroji__praktika_1_1_items_1a6539e2156fac7239528e95428afb9b99" prot="private" virt="non-virtual"><scope>antroji_praktika::Items</scope><name>Title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

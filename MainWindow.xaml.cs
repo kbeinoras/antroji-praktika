@@ -23,35 +23,62 @@ namespace antroji_praktika
     {
         public MainWindow()
         {
+
             InitializeComponent();
-            ShowData();
         }
-     
-        public void ShowData()
+        private int count;
+
+        private void BtnLogin_Click(object sender, RoutedEventArgs e)
         {
-            backend.GetData duombaze = new backend.GetData();
-            List<Items> Daiktai = new List<Items>();
-            Daiktai = duombaze.GetKategorijos();
-            for(int i=0; i<Daiktai.Count; i++)
+            SQLiteConnection m_dbConnection = new SQLiteConnection(@"Data Source=DbAntras.db;");
+            try
             {
-                StackPanel1.Children.Add(Daiktai[i]);
+                if (m_dbConnection.State == System.Data.ConnectionState.Closed)
+                {
+                    m_dbConnection.Open();
+                }
+                string query = "SELECT COUNT(1) FROM Vartotojai WHERE Slapyvardis=@username AND Slaptazodis=@password";
+                SQLiteCommand sql1 = new SQLiteCommand(query, m_dbConnection);
+                sql1.CommandType = System.Data.CommandType.Text;
+                sql1.Parameters.AddWithValue("@username", TxtBoxNick.Text);
+                sql1.Parameters.AddWithValue("@password", TxtBoxPass.Password);
+                count = Convert.ToInt32(sql1.ExecuteScalar());
+                if (count == 1)
+                {
+
+                    this.Hide();
+
+                    LoggedIn prisijunges = new LoggedIn();
+                    prisijunges.Show();
+
+                }
+                else
+                {
+                    MessageBox.Show("Neteisingai įvesti duomenys!");
+                }
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                m_dbConnection.Close();
             }
         }
 
-       private void BtnVisosPrekes_Click(object sender, RoutedEventArgs e)
+        private void BtnRegistracija_Click(object sender, RoutedEventArgs e)
         {
-            VisosPrekes prekiusarasas = new VisosPrekes(Title);
-            prekiusarasas.Show();
-        }
-        public void GetCategoryName(string name)
-        {
-            MessageBox.Show(name);
+            Registracija RegLangas = new Registracija();
+            RegLangas.Show();
+            this.Hide();
         }
 
-        private void BtnVisosPrekes_Click_1(object sender, RoutedEventArgs e)
+        private void BtnClose_Click(object sender, RoutedEventArgs e)
         {
-            VisosNekaterizuotosPrekes prekes = new VisosNekaterizuotosPrekes();
-            prekes.Show();
+            System.Windows.Application.Current.Shutdown();
         }
     }
+    
 }

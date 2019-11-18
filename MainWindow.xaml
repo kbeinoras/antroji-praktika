@@ -7,10 +7,13 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <ScrollViewer HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Visible" Margin="0,0,413,0" RenderTransformOrigin="0.55,0.485" HorizontalAlignment="Left">
-            <StackPanel x:Name="StackPanel1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="419" Height="419"/>
-        </ScrollViewer>
-        <Button x:Name="BtnVisosPrekes" Content="Visos prekės" HorizontalAlignment="Left" Margin="560,63,0,0" VerticalAlignment="Top" Width="147" Height="58" Click="BtnVisosPrekes_Click_1"/>
+        <Label x:Name="lblVartotojovardas" Content="Slapyvardis:" HorizontalAlignment="Left" Margin="79,113,0,0" VerticalAlignment="Top" Width="166" FontSize="20"/>
+        <Label x:Name="lblSlaptazodis" Content="Slaptažodis:" HorizontalAlignment="Left" Margin="79,196,0,0" VerticalAlignment="Top" Width="166" FontSize="20"/>
+        <TextBox x:Name="TxtBoxNick" HorizontalAlignment="Left" Height="37" Margin="250,113,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="407" BorderBrush="Black" Background="#FFEAE9E9"/>
+        <Button x:Name="BtnLogin" Content="Prisijungti" HorizontalAlignment="Left" Margin="382,266,0,0" VerticalAlignment="Top" Width="148" Height="37" Click="BtnLogin_Click"/>
+        <Button x:Name="BtnRegistracija" Content="Registruotis" HorizontalAlignment="Left" VerticalAlignment="Top" Width="133" Margin="35,343,0,0" Height="47" Click="BtnRegistracija_Click"/>
+        <PasswordBox x:Name="TxtBoxPass" HorizontalAlignment="Left" Margin="250,196,0,0" VerticalAlignment="Top" Width="407" Height="37"/>
+        <Button x:Name="BtnClose" Content="Uždaryti Programą" HorizontalAlignment="Left" Margin="658,389,0,0" VerticalAlignment="Top" Width="124" Click="BtnClose_Click"/>
 
     </Grid>
 </Window>

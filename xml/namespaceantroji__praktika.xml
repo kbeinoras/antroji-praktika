@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="namespaceantroji__praktika" kind="namespace" language="C++">
+    <compoundname>antroji_praktika</compoundname>
+    <innerclass refid="classantroji__praktika_1_1_app" prot="public">antroji_praktika::App</innerclass>
+    <innerclass refid="classantroji__praktika_1_1_items" prot="public">antroji_praktika::Items</innerclass>
+    <innerclass refid="classantroji__praktika_1_1login" prot="public">antroji_praktika::login</innerclass>
+    <innerclass refid="classantroji__praktika_1_1_main_window" prot="public">antroji_praktika::MainWindow</innerclass>
+    <innerclass refid="classantroji__praktika_1_1_preke" prot="public">antroji_praktika::Preke</innerclass>
+    <innerclass refid="classantroji__praktika_1_1_visos_nekaterizuotos_prekes" prot="public">antroji_praktika::VisosNekaterizuotosPrekes</innerclass>
+    <innerclass refid="classantroji__praktika_1_1_visos_prekes" prot="public">antroji_praktika::VisosPrekes</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="App.xaml.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

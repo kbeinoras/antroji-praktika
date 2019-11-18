@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.16">
+  <compound refid="classantroji__praktika_1_1_app" kind="class"><name>antroji_praktika::App</name>
+  </compound>
+  <compound refid="classantroji__praktika_1_1_items" kind="class"><name>antroji_praktika::Items</name>
+    <member refid="classantroji__praktika_1_1_items_1a6539e2156fac7239528e95428afb9b99" kind="variable"><name>Title</name></member>
+    <member refid="classantroji__praktika_1_1_items_1a6eefcef84895093a5ec2a0643946b111" kind="function"><name>Items</name></member>
+    <member refid="classantroji__praktika_1_1_items_1a3df9e9ffbfda90a7429e2dda088b373b" kind="function"><name>setTitle</name></member>
+    <member refid="classantroji__praktika_1_1_items_1aa9f29eb8d673981c375e286c047aab67" kind="function"><name>GetTitle</name></member>
+    <member refid="classantroji__praktika_1_1_items_1a96cf7f668c9693fcccf0706abe60ec9a" kind="function"><name>BtnKategorijosPasirinkimas_Click</name></member>
+  </compound>
+  <compound refid="classantroji__praktika_1_1login" kind="class"><name>antroji_praktika::login</name>
+    <member refid="classantroji__praktika_1_1login_1a7fbf113da45b9b0fc56c2ae74adac549" kind="function"><name>login</name></member>
+    <member refid="classantroji__praktika_1_1login_1a1cdb45bf107098351eee98326f5e006b" kind="function"><name>BtnLogin_Click</name></member>
+  </compound>
+  <compound refid="classantroji__praktika_1_1_main_window" kind="class"><name>antroji_praktika::MainWindow</name>
+    <member refid="classantroji__praktika_1_1_main_window_1a49453bee596c60f875d3f93526c96f79" kind="function"><name>MainWindow</name></member>
+    <member refid="classantroji__praktika_1_1_main_window_1aa4b59906ac4191fd658e4a88dd798b7d" kind="function"><name>ShowData</name></member>
+    <member refid="classantroji__praktika_1_1_main_window_1ae7e53641fa0da091ff38f8b5a57f8d27" kind="function"><name>BtnVisosPrekes_Click</name></member>
+    <member refid="classantroji__praktika_1_1_main_window_1a532431324cc64943ec2419f96fa4bdd6" kind="function"><name>GetCategoryName</name></member>
+    <member refid="classantroji__praktika_1_1_main_window_1a84b825f4a5bf7e49e29a07623de01324" kind="function"><name>BtnVisosPrekes_Click_1</name></member>
+    <member refid="classantroji__praktika_1_1_main_window_1af34c527fe597b465cc2a441c6425f557" kind="function"><name>BtnLogin_Click</name></member>
+  </compound>
+  <compound refid="classantroji__praktika_1_1_preke" kind="class"><name>antroji_praktika::Preke</name>
+    <member refid="classantroji__praktika_1_1_preke_1a0a76635717401478f49ac0c481b952de" kind="variable"><name>Title</name></member>
+    <member refid="classantroji__praktika_1_1_preke_1a060045daffaef3060eef6e15e82ee28f" kind="variable"><name>Aprasymas</name></member>
+    <member refid="classantroji__praktika_1_1_preke_1ae80bddb59a498d4f59737ff5012b6477" kind="variable"><name>Kaina</name></member>
+    <member refid="classantroji__praktika_1_1_preke_1ae6b07b5544dc5673baa6ae6e30a5664c" kind="variable"><name>euras</name></member>
+    <member refid="classantroji__praktika_1_1_preke_1a62bc02a20869c5380d2250ab42580c4b" kind="variable"><name>NuotraukosDir</name></member>
+    <member refid="classantroji__praktika_1_1_preke_1a090aa69f1ccbc29fc1418beabb1c0090" kind="function"><name>Preke</name></member>
+    <member refid="classantroji__praktika_1_1_preke_1a63e2547eec8b9b4db11f42dd46429de7" kind="function"><name>setTitle</name></member>
+    <member refid="classantroji__praktika_1_1_preke_1a42e80033cc69d1d8eb313b55b722e94c" kind="function"><name>setAprasymas</name></member>
+    <member refid="classantroji__praktika_1_1_preke_1aebeea5e6caa2b2c927a9c2d619525ae7" kind="function"><name>setKaina</name></member>
+    <member refid="classantroji__praktika_1_1_preke_1acabfbde6caa39324ebc1ac7838c84ca0" kind="function"><name>SetNuotraukosDirekcija</name></member>
+    <member refid="classantroji__praktika_1_1_preke_1af5de9d3ac2f7ba2d38ea6b11b94a4364" kind="function"><name>GetNuotraukosDirekcija</name></member>
+    <member refid="classantroji__praktika_1_1_preke_1ad6924179c4f8c0f826e914d07625d110" kind="function"><name>GetTitle</name></member>
+    <member refid="classantroji__praktika_1_1_preke_1a20053479e68f4cb94398a8b51f8e3f16" kind="function"><name>getAprasymas</name></member>
+    <member refid="classantroji__praktika_1_1_preke_1a8d88156180ae7279a4d83848198297cc" kind="function"><name>getKaina</name></member>
+  </compound>
+  <compound refid="classantroji__praktika_1_1_visos_nekaterizuotos_prekes" kind="class"><name>antroji_praktika::VisosNekaterizuotosPrekes</name>
+    <member refid="classantroji__praktika_1_1_visos_nekaterizuotos_prekes_1a2263dcff75c86df1f2a1c9084f29393a" kind="function"><name>VisosNekaterizuotosPrekes</name></member>
+    <member refid="classantroji__praktika_1_1_visos_nekaterizuotos_prekes_1aab20db933a9d5d9c46c66ceffcec9a8e" kind="function"><name>ShowData</name></member>
+    <member refid="classantroji__praktika_1_1_visos_nekaterizuotos_prekes_1a55e9f0418dfb7b6275f24bcffbe3120c" kind="function"><name>BtnAtgal_Click</name></member>
+  </compound>
+  <compound refid="classantroji__praktika_1_1_visos_prekes" kind="class"><name>antroji_praktika::VisosPrekes</name>
+    <member refid="classantroji__praktika_1_1_visos_prekes_1a87a5300c7459603caaab1611a6a1a45b" kind="function"><name>VisosPrekes</name></member>
+    <member refid="classantroji__praktika_1_1_visos_prekes_1ad86f54d1caee210f32e4e0ac660a958c" kind="function"><name>ShowData</name></member>
+    <member refid="classantroji__praktika_1_1_visos_prekes_1a2b948216686e780547e4489a16ae1d1a" kind="function"><name>BtnAtgal_Click</name></member>
+  </compound>
+  <compound refid="namespaceantroji__praktika" kind="namespace"><name>antroji_praktika</name>
+  </compound>
+  <compound refid="_app_8xaml_8cs" kind="file"><name>App.xaml.cs</name>
+  </compound>
+  <compound refid="_items_8xaml_8cs" kind="file"><name>Items.xaml.cs</name>
+  </compound>
+  <compound refid="login_8xaml_8cs" kind="file"><name>login.xaml.cs</name>
+  </compound>
+  <compound refid="_main_window_8xaml_8cs" kind="file"><name>MainWindow.xaml.cs</name>
+  </compound>
+  <compound refid="_preke_8xaml_8cs" kind="file"><name>Preke.xaml.cs</name>
+  </compound>
+  <compound refid="_visos_nekaterizuotos_prekes_8xaml_8cs" kind="file"><name>VisosNekaterizuotosPrekes.xaml.cs</name>
+  </compound>
+  <compound refid="_visos_prekes_8xaml_8cs" kind="file"><name>VisosPrekes.xaml.cs</name>
+  </compound>
+</doxygenindex>

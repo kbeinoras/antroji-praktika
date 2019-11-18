@@ -13,7 +13,7 @@ namespace antroji_praktika.backend
         public List<Items> GetKategorijos()
         {
             m_dbConnection.Open();
-            string sql1 = $"SELECT Kategorija FROM Prekes";
+            string sql1 = $"SELECT DISTINCT Kategorija FROM Prekes";
             SQLiteCommand command1 = new SQLiteCommand(sql1, m_dbConnection);
             SQLiteDataReader reader1 = command1.ExecuteReader();
             string name = "";

@@ -28,6 +28,7 @@ namespace antroji_praktika
         private string Aprasymas;
         private string Kaina;
         private string euras = "  Eur.";
+        private string NuotraukosDir;
         public void setTitle(string TITLE)
         {
             Title = TITLE;
@@ -42,6 +43,19 @@ namespace antroji_praktika
         {
             Kaina = KAINA;
             LblKaina.Content = Kaina+euras;
+        }
+        public void SetNuotraukosDirekcija(string PHOTOPATH)
+        {
+            NuotraukosDir = PHOTOPATH;
+            Console.WriteLine(NuotraukosDir);
+            ImageSource imageSource = new BitmapImage(new Uri(NuotraukosDir));
+            this.ImgBoxPreke.Source = imageSource;
+            ImgBoxPreke.Stretch = Stretch.Fill;
+            Console.WriteLine($"{imageSource}");
+        }
+        public string GetNuotraukosDirekcija()
+        {
+            return NuotraukosDir;
         }
         public string GetTitle()
         {

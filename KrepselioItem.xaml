@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="antroji_praktika.KrepselioItem"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:antroji_praktika"
+             mc:Ignorable="d" Height="104.662" Width="571.043">
+    <Grid Background="White" Height="105" VerticalAlignment="Top" HorizontalAlignment="Left" Width="577">
+        <Label x:Name="LblPavadinimas" Content="Label" HorizontalAlignment="Left" Margin="25,12,0,0" VerticalAlignment="Top" Height="62" Width="390" FontSize="20"/>
+        <Label x:Name="LblKaina" Content="Label" HorizontalAlignment="Left" Margin="417,12,0,0" VerticalAlignment="Top" Height="62" Width="74"/>
+        <Button x:Name="BtnPasalinti" Content="X" HorizontalAlignment="Left" Margin="495,12,0,0" VerticalAlignment="Top" Width="50" Height="48" Background="#FFB61212" FontSize="36"/>
+    </Grid>
+</UserControl>

@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classantroji__praktika_1_1_main_window" kind="class" language="C++" prot="public">
+    <compoundname>antroji_praktika::MainWindow</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classantroji__praktika_1_1_main_window_1a49453bee596c60f875d3f93526c96f79" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>public</type>
+        <definition>public antroji_praktika::MainWindow::MainWindow</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="24" column="16" bodyfile="MainWindow.xaml.cs" bodystart="24" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classantroji__praktika_1_1_main_window_1aa4b59906ac4191fd658e4a88dd798b7d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>public void</type>
+        <definition>public void antroji_praktika::MainWindow::ShowData</definition>
+        <argsstring>()</argsstring>
+        <name>ShowData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="30" column="21" bodyfile="MainWindow.xaml.cs" bodystart="30" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="classantroji__praktika_1_1_main_window_1ae7e53641fa0da091ff38f8b5a57f8d27" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>private void</type>
+        <definition>private void antroji_praktika::MainWindow::BtnVisosPrekes_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>BtnVisosPrekes_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="41" column="21" bodyfile="MainWindow.xaml.cs" bodystart="41" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classantroji__praktika_1_1_main_window_1a532431324cc64943ec2419f96fa4bdd6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>public void</type>
+        <definition>public void antroji_praktika::MainWindow::GetCategoryName</definition>
+        <argsstring>(string name)</argsstring>
+        <name>GetCategoryName</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="46" column="21" bodyfile="MainWindow.xaml.cs" bodystart="46" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="classantroji__praktika_1_1_main_window_1a84b825f4a5bf7e49e29a07623de01324" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>private void</type>
+        <definition>private void antroji_praktika::MainWindow::BtnVisosPrekes_Click_1</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>BtnVisosPrekes_Click_1</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="51" column="22" bodyfile="MainWindow.xaml.cs" bodystart="51" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="classantroji__praktika_1_1_main_window_1af34c527fe597b465cc2a441c6425f557" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>private void</type>
+        <definition>private void antroji_praktika::MainWindow::BtnLogin_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>BtnLogin_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="MainWindow.xaml.cs" line="57" column="22" bodyfile="MainWindow.xaml.cs" bodystart="57" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for MainWindow.xaml </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Window</label>
+      </node>
+      <node id="1">
+        <label>antroji_praktika::MainWindow</label>
+        <link refid="classantroji__praktika_1_1_main_window"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Window</label>
+      </node>
+      <node id="1">
+        <label>antroji_praktika::MainWindow</label>
+        <link refid="classantroji__praktika_1_1_main_window"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="MainWindow.xaml.cs" line="23" column="1" bodyfile="MainWindow.xaml.cs" bodystart="22" bodyend="64"/>
+    <listofallmembers>
+      <member refid="classantroji__praktika_1_1_main_window_1af34c527fe597b465cc2a441c6425f557" prot="private" virt="non-virtual"><scope>antroji_praktika::MainWindow</scope><name>BtnLogin_Click</name></member>
+      <member refid="classantroji__praktika_1_1_main_window_1ae7e53641fa0da091ff38f8b5a57f8d27" prot="private" virt="non-virtual"><scope>antroji_praktika::MainWindow</scope><name>BtnVisosPrekes_Click</name></member>
+      <member refid="classantroji__praktika_1_1_main_window_1a84b825f4a5bf7e49e29a07623de01324" prot="private" virt="non-virtual"><scope>antroji_praktika::MainWindow</scope><name>BtnVisosPrekes_Click_1</name></member>
+      <member refid="classantroji__praktika_1_1_main_window_1a532431324cc64943ec2419f96fa4bdd6" prot="private" virt="non-virtual"><scope>antroji_praktika::MainWindow</scope><name>GetCategoryName</name></member>
+      <member refid="classantroji__praktika_1_1_main_window_1a49453bee596c60f875d3f93526c96f79" prot="private" virt="non-virtual"><scope>antroji_praktika::MainWindow</scope><name>MainWindow</name></member>
+      <member refid="classantroji__praktika_1_1_main_window_1aa4b59906ac4191fd658e4a88dd798b7d" prot="private" virt="non-virtual"><scope>antroji_praktika::MainWindow</scope><name>ShowData</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

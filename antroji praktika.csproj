@@ -102,8 +102,24 @@
     <Compile Include="backend\GetAllItemsData.cs" />
     <Compile Include="backend\GetAllItemsWIthoutCategoty.cs" />
     <Compile Include="backend\GetCategoryData.cs" />
+    <Compile Include="backend\GetFullPhoto.cs" />
+    <Compile Include="backend\GetKrepselis.cs" />
+    <Compile Include="backend\GetLoginInfo.cs" />
+    <Compile Include="backend\GetRegistration.cs" />
+    <Compile Include="KrepselioItem.xaml.cs">
+      <DependentUpon>KrepselioItem.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Krepselis.xaml.cs">
+      <DependentUpon>Krepselis.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoggedIn.xaml.cs">
+      <DependentUpon>LoggedIn.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Preke.xaml.cs">
       <DependentUpon>Preke.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Registracija.xaml.cs">
+      <DependentUpon>Registracija.xaml</DependentUpon>
     </Compile>
     <Compile Include="VisosNekaterizuotosPrekes.xaml.cs">
       <DependentUpon>VisosNekaterizuotosPrekes.xaml</DependentUpon>
@@ -112,6 +128,18 @@
       <DependentUpon>VisosPrekes.xaml</DependentUpon>
     </Compile>
     <Page Include="Items.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="KrepselioItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Krepselis.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="LoggedIn.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -132,6 +160,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Preke.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Registracija.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

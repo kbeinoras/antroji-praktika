@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.16">
+  <compounddef id="classantroji__praktika_1_1login" kind="class" language="C++" prot="public">
+    <compoundname>antroji_praktika::login</compoundname>
+    <basecompoundref prot="private" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classantroji__praktika_1_1login_1a7fbf113da45b9b0fc56c2ae74adac549" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>public</type>
+        <definition>public antroji_praktika::login::login</definition>
+        <argsstring>()</argsstring>
+        <name>login</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="login.xaml.cs" line="23" column="16" bodyfile="login.xaml.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classantroji__praktika_1_1login_1a1cdb45bf107098351eee98326f5e006b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>private void</type>
+        <definition>private void antroji_praktika::login::BtnLogin_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>BtnLogin_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="login.xaml.cs" line="28" column="22" bodyfile="login.xaml.cs" bodystart="28" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for login.xaml </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Window</label>
+      </node>
+      <node id="1">
+        <label>antroji_praktika::login</label>
+        <link refid="classantroji__praktika_1_1login"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Window</label>
+      </node>
+      <node id="1">
+        <label>antroji_praktika::login</label>
+        <link refid="classantroji__praktika_1_1login"/>
+        <childnode refid="2" relation="private-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="login.xaml.cs" line="22" column="1" bodyfile="login.xaml.cs" bodystart="21" bodyend="68"/>
+    <listofallmembers>
+      <member refid="classantroji__praktika_1_1login_1a1cdb45bf107098351eee98326f5e006b" prot="private" virt="non-virtual"><scope>antroji_praktika::login</scope><name>BtnLogin_Click</name></member>
+      <member refid="classantroji__praktika_1_1login_1a7fbf113da45b9b0fc56c2ae74adac549" prot="private" virt="non-virtual"><scope>antroji_praktika::login</scope><name>login</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
