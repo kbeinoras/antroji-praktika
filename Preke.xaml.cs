@@ -29,6 +29,7 @@ namespace antroji_praktika
         private string Kaina;
         private string euras = "  Eur.";
         private string NuotraukosDir;
+        private int ID;
         public void setTitle(string TITLE)
         {
             Title = TITLE;
@@ -68,6 +69,19 @@ namespace antroji_praktika
         public string getKaina()
         {
             return Kaina;
+        }
+        public int GetID()
+        {
+            return ID;
+        }
+        public void setID(int ident)
+        {
+            ID = ident;
+        }
+        private void BtnKrepselis_Click(object sender, RoutedEventArgs e)
+        {
+            backend.Cart.InsertToCart(ID, Title, Kaina);
+
         }
     }
 }

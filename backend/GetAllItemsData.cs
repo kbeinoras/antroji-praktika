@@ -19,22 +19,27 @@ namespace antroji_praktika.backend
             string sql2 = $"SELECT Aprasymas FROM Prekes WHERE Kategorija='{kategorija}'";
             string sql3 = $"SELECT Kaina FROM Prekes WHERE Kategorija='{kategorija}'";
             string sql4 = $"SELECT Paveikslelis FROM Prekes WHERE Kategorija='{kategorija}'";
+            string sql5 = $"SELECT ID FROM Prekes WHERE Kategorija='{kategorija}'";
             SQLiteCommand command1 = new SQLiteCommand(sql1, m_dbConnection);
             SQLiteCommand command2 = new SQLiteCommand(sql2, m_dbConnection);
             SQLiteCommand command3 = new SQLiteCommand(sql3, m_dbConnection);
             SQLiteCommand command4 = new SQLiteCommand(sql4, m_dbConnection);
+            SQLiteCommand command5 = new SQLiteCommand(sql5, m_dbConnection);
             SQLiteDataReader reader1 = command1.ExecuteReader();
             SQLiteDataReader reader2 = command2.ExecuteReader();
             SQLiteDataReader reader3 = command3.ExecuteReader();
             SQLiteDataReader reader4 = command4.ExecuteReader();
+            SQLiteDataReader reader5 = command5.ExecuteReader();
             string name = "";
             string aprasymas = "";
             string kaina = "";
             string paveikslelis = "";
+            int ID = 0;
             int k = 0;
             int m = 0;
             int l = 0;
             int n = 0;
+            int g = 0;
             List<Preke> Sarasas = new List<Preke>();
             while (reader1.Read())
             {
@@ -63,6 +68,12 @@ namespace antroji_praktika.backend
                 Kelias = $"{Directory}\\Pic\\{paveikslelis}";
                 Sarasas[n].SetNuotraukosDirekcija(Kelias);
                 n++;
+            }
+            while (reader5.Read())
+            {
+                ID = reader5.GetInt32(0);
+                Sarasas[g].setID(ID);
+                g++;
             }
             m_dbConnection.Close();
             return Sarasas;

@@ -8,6 +8,6 @@
     <Grid Background="White" Height="105" VerticalAlignment="Top" HorizontalAlignment="Left" Width="577">
         <Label x:Name="LblPavadinimas" Content="Label" HorizontalAlignment="Left" Margin="25,12,0,0" VerticalAlignment="Top" Height="62" Width="390" FontSize="20"/>
         <Label x:Name="LblKaina" Content="Label" HorizontalAlignment="Left" Margin="417,12,0,0" VerticalAlignment="Top" Height="62" Width="74"/>
-        <Button x:Name="BtnPasalinti" Content="X" HorizontalAlignment="Left" Margin="495,12,0,0" VerticalAlignment="Top" Width="50" Height="48" Background="#FFB61212" FontSize="36"/>
+        <Button x:Name="BtnPasalinti" Content="X" HorizontalAlignment="Left" Margin="495,12,0,0" VerticalAlignment="Top" Width="48" Height="48" Background="#FFB61212" FontSize="36" Click="BtnPasalinti_Click"/>
     </Grid>
 </UserControl>

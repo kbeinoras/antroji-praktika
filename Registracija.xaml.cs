@@ -30,5 +30,21 @@ namespace antroji_praktika
             MainWindow PagLangas = new MainWindow();
             PagLangas.Show();
         }
+
+        private void BtnReg_Click(object sender, RoutedEventArgs e)
+        {
+            
+            string name = TxtSlapyvardis.Text;
+            string pass = PassBox.Password;
+            if (name != "" && pass!="")
+            {
+                backend.GetRegistration.Registracija(name, pass);
+                MessageBox.Show("ura");
+            }
+            else
+            {
+                MessageBox.Show("Visi laukeliai turi buti uzpildyti");
+            }
+        }
     }
 }

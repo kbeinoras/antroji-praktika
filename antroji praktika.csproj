@@ -106,6 +106,8 @@
     <Compile Include="backend\GetKrepselis.cs" />
     <Compile Include="backend\GetLoginInfo.cs" />
     <Compile Include="backend\GetRegistration.cs" />
+    <Compile Include="backend\Cart.cs" />
+    <Compile Include="backend\Item.cs" />
     <Compile Include="KrepselioItem.xaml.cs">
       <DependentUpon>KrepselioItem.xaml</DependentUpon>
     </Compile>

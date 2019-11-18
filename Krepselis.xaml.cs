@@ -26,13 +26,24 @@ namespace antroji_praktika
         }
         public void ShowData()
         {
-            backend.GetKrepselis duombaze = new backend.GetKrepselis();
-            List<KrepselioItem> Daiktai = new List<KrepselioItem>();
-            Daiktai = duombaze.GetCart();
-            for (int i = 0; i < Daiktai.Count; i++)
+            List<KrepselioItem> krepselis = new List<KrepselioItem>();
+            List<backend.Item> listas = new List<backend.Item>();
+            listas = backend.Cart.GetItems();
+            int count = backend.Cart.GetCount();
+            for (int i = 0; i < count; i++)
             {
-                StackPanelKrepselis.Children.Add(Daiktai[i]);
+                krepselis.Add(new KrepselioItem());
+                krepselis[i].setTitle(listas[i].GetPavadinimas());
+                krepselis[i].setKaina(listas[i].GetKaina());
+                krepselis[i].setID(listas[i].GetID());
+                StackPanelKrepselis.Children.Add(krepselis[i]);
             }
+        }
+
+        private void BtnAtgal_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+            
         }
     }
 }

@@ -11,7 +11,7 @@
         <Label Content="Slapyvardis:" HorizontalAlignment="Left" Margin="170,101,0,0" VerticalAlignment="Top" Height="40" Width="143" FontSize="20"/>
         <Label Content="Slaptažodis:" HorizontalAlignment="Left" Margin="170,197,0,0" VerticalAlignment="Top" Height="40" Width="143" FontSize="20"/>
         <PasswordBox x:Name="PassBox" HorizontalAlignment="Left" Margin="318,197,0,0" VerticalAlignment="Top" Height="40" Width="294"/>
-        <Button x:Name="BtnReg" Content="Registruotis" HorizontalAlignment="Left" Margin="305,280,0,0" VerticalAlignment="Top" Width="204" Height="50"/>
+        <Button x:Name="BtnReg" Content="Registruotis" HorizontalAlignment="Left" Margin="305,280,0,0" VerticalAlignment="Top" Width="204" Height="50" Click="BtnReg_Click"/>
         <Button x:Name="BtnAtgal" Content="Atgal" HorizontalAlignment="Left" Margin="674,349,0,0" VerticalAlignment="Top" Width="108" Height="60" Click="BtnAtgal_Click"/>
 
     </Grid>

@@ -27,6 +27,7 @@ namespace antroji_praktika
         private string Title;
         private string Kaina;
         private string euras = "  Eur.";
+        private int ID;
         public void setTitle(string TITLE)
         {
             Title = TITLE;
@@ -44,6 +45,20 @@ namespace antroji_praktika
         public string getKaina()
         {
             return Kaina;
+        }
+        public void setID(int id)
+        {
+            ID = id;
+        }
+        public int getID()
+        {
+            return ID;
+        }
+
+        private void BtnPasalinti_Click(object sender, RoutedEventArgs e)
+        {
+            backend.Cart.DeleteItem(ID, Title, Kaina);
+           
         }
     }
 }
