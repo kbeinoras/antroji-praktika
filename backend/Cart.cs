@@ -101,7 +101,7 @@ namespace antroji_praktika.backend
         public static void ClearItems()
         {
             Prekes.Clear();
-
+            VisaKaina = 0;
         }
     }
 }

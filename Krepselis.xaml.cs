@@ -62,6 +62,7 @@ namespace antroji_praktika
 
             backend.Cart.FormCheck();
             backend.Cart.ClearItems();
+            MessageBox.Show("Čekis buvo suformuotas");
             
         }
     }
