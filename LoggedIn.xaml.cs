@@ -59,6 +59,7 @@ namespace antroji_praktika
 
         private void BtnAtsijungti_Click(object sender, RoutedEventArgs e)
         {
+
             MainWindow langas = new MainWindow();
             langas.Show();
             this.Close();

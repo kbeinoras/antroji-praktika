@@ -27,7 +27,7 @@ namespace antroji_praktika
             InitializeComponent();
         }
         private int count;
-
+        private int ID;
         private void BtnLogin_Click(object sender, RoutedEventArgs e)
         {
             SQLiteConnection m_dbConnection = new SQLiteConnection(@"Data Source=DbAntras.db;");
@@ -38,25 +38,25 @@ namespace antroji_praktika
                     m_dbConnection.Open();
                 }
                 string query = "SELECT COUNT(1) FROM Vartotojai WHERE Slapyvardis=@username AND Slaptazodis=@password";
+
                 SQLiteCommand sql1 = new SQLiteCommand(query, m_dbConnection);
                 sql1.CommandType = System.Data.CommandType.Text;
                 sql1.Parameters.AddWithValue("@username", TxtBoxNick.Text);
                 sql1.Parameters.AddWithValue("@password", TxtBoxPass.Password);
+                string nick = TxtBoxNick.Text;
+                string pass = TxtBoxPass.Password;
                 count = Convert.ToInt32(sql1.ExecuteScalar());
                 if (count == 1)
                 {
-
                     this.Hide();
-
                     LoggedIn prisijunges = new LoggedIn();
                     prisijunges.Show();
-
+                    backend.User.setUserId(nick, pass);
                 }
                 else
                 {
                     MessageBox.Show("Neteisingai įvesti duomenys!");
                 }
-
             }
             catch (Exception ex)
             {
@@ -67,7 +67,6 @@ namespace antroji_praktika
                 m_dbConnection.Close();
             }
         }
-
         private void BtnRegistracija_Click(object sender, RoutedEventArgs e)
         {
             Registracija RegLangas = new Registracija();

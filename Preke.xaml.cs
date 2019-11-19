@@ -81,7 +81,7 @@ namespace antroji_praktika
         private void BtnKrepselis_Click(object sender, RoutedEventArgs e)
         {
             backend.Cart.InsertToCart(ID, Title, Kaina);
-
+            MessageBox.Show("Prekė buvo sėkmingai pridėta į krepšelį");
         }
     }
 }

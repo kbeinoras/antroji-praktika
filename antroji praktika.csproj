@@ -104,10 +104,10 @@
     <Compile Include="backend\GetCategoryData.cs" />
     <Compile Include="backend\GetFullPhoto.cs" />
     <Compile Include="backend\GetKrepselis.cs" />
-    <Compile Include="backend\GetLoginInfo.cs" />
     <Compile Include="backend\GetRegistration.cs" />
     <Compile Include="backend\Cart.cs" />
     <Compile Include="backend\Item.cs" />
+    <Compile Include="backend\User.cs" />
     <Compile Include="KrepselioItem.xaml.cs">
       <DependentUpon>KrepselioItem.xaml</DependentUpon>
     </Compile>

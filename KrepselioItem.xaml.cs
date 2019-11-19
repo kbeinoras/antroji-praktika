@@ -57,8 +57,10 @@ namespace antroji_praktika
 
         private void BtnPasalinti_Click(object sender, RoutedEventArgs e)
         {
+            
             backend.Cart.DeleteItem(ID, Title, Kaina);
-           
+            MessageBox.Show("Prekė buvo sėkmingai pašalinta iš krepšelio, perkraukite puslapį!");
+            
         }
     }
 }

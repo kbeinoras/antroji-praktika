@@ -23,6 +23,7 @@ namespace antroji_praktika
         {
             InitializeComponent();
             ShowData();
+            ShowSuma();
         }
         public void ShowData()
         {
@@ -43,6 +44,24 @@ namespace antroji_praktika
         private void BtnAtgal_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
+            
+        }
+
+        public void TxtIsVisoKaina_TextChanged(object sender, TextChangedEventArgs e)
+        {
+        }
+        public void ShowSuma()
+        {
+            int suma = backend.Cart.GetSuma();
+            string strngSuma = Convert.ToString(suma);
+            TxtIsVisoKaina.Text = strngSuma;
+        }
+
+        private void BtnFormCheck_Click(object sender, RoutedEventArgs e)
+        {
+
+            backend.Cart.FormCheck();
+            backend.Cart.ClearItems();
             
         }
     }

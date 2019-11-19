@@ -39,7 +39,7 @@ namespace antroji_praktika
             if (name != "" && pass!="")
             {
                 backend.GetRegistration.Registracija(name, pass);
-                MessageBox.Show("ura");
+                MessageBox.Show("Sėkmingai užsiregistravote, dabar galite prisijungti");
             }
             else
             {
