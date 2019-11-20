@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="antroji_praktika.backend.Cart">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAABAQAAAAACAQAAAAgBQIAAAgACAACAAAAAAAA=</HashCode>
+      <FileName>backend\Cart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="antroji_praktika.backend.GetAllItemsData">
+    <Position X="4.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAIAAAAAAAAAABAAAACAAAAAAAA=</HashCode>
+      <FileName>backend\GetAllItemsData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="antroji_praktika.backend.GetAllItemsWithoutCategory">
+    <Position X="6.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAABAAAAAAAAAAAAAAAAAAABAAAACAAAAAAAA=</HashCode>
+      <FileName>backend\GetAllItemsWIthoutCategoty.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="antroji_praktika.backend.GetCategoryData">
+    <Position X="4.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>backend\GetCategoryData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="antroji_praktika.backend.GetData">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAA=</HashCode>
+      <FileName>backend\GetData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="antroji_praktika.backend.GetFullPhoto">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAAAAAAAAAAAAAAAAAABAAAAAAIAAAAAA=</HashCode>
+      <FileName>backend\GetFullPhoto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="antroji_praktika.backend.GetKrepselis">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>backend\GetKrepselis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="antroji_praktika.backend.GetRegistration">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>backend\GetRegistration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="antroji_praktika.backend.Item">
+    <Position X="6.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAgAACAAIAoAgAAAAAAAAAAAAAAAAgAAI=</HashCode>
+      <FileName>backend\Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="antroji_praktika.backend.User">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAgAAACAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>backend\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
